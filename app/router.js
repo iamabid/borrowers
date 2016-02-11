@@ -12,7 +12,12 @@ Router.map(function() {
     this.route('show', {
       path: ':friend_id'
     });
+
+    this.route('edit', {
+      path: ':friend_id/edit'
+    });
   });
+  this.route('articles');
 });
 
 export default Router;
